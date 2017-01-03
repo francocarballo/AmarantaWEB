@@ -1,0 +1,81 @@
+body {
+  padding: 0px;
+  font-family: "Raleway",sans-serif;
+  background-image: url('../assets/fondo-hd.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin-left: 50px;
+  margin-right: 50px;
+  width: auto;
+}
+
+.navbar {
+  background-size: cover;
+  height: 110px;
+}
+
+#logo img{
+  margin: 20px 0 0 0;
+  max-width: 300px;
+}
+
+#menu-nav {
+  margin: 40px 0 0 0;
+
+}
+
+.navbar .nav li {
+  margin: 10px 0 0 30px;
+}
+
+.navbar .nav li a {
+  color: white;
+	text-transform: uppercase;
+	font-size: 20px;
+  font-weight: bold;
+	opacity: 0.8;
+	background: rgba(255,255,255,0);
+}
+
+.navbar .nav li a:hover {
+	opacity: 1;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+.item img {
+  max-height: 600px;
+}
+
+#info-div {
+  background-color: white;
+}
+
+#amaranta {
+  margin: 0 10% 0 10%;
+  padding: 50px 0 0 0;
+}
+
+p {
+  font-size: 20px;
+}
+
+#nuestra {
+  margin: 0 20% 0 20%;
+  padding: 25px 0 25px 0;
+}
+
+#footer {
+  margin: 10px;
+  text-align: center;
+  color: white;
+}
+
+#footer p {
+  font-size: 15px;
+}
