@@ -1,6 +1,26 @@
+@font-face {
+  font-family: 'Gotham Rounded';
+  src: url('../assets/fonts/gotham rounded/GothamRnd-Light.otf')  format('opentype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Rounded';
+  src: url('../assets/fonts/gotham rounded/GothamRnd-Bold.otf')  format('opentype');
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Ropa Soft Pro';
+  src: url('../assets/fonts/Ropa Soft/Fonts/RopaSoftPro-ExtraBold.otf')  format('opentype');
+  font-style: normal;
+  font-weight: bold;
+}
+
 body {
   padding: 0px;
-  font-family: "Raleway",sans-serif;
+  font-family: 'Gotham Rounded';
   background-image: url('../assets/fondo-hd.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,6 +45,10 @@ body {
 #menu-nav {
   margin: 40px 0 0 0;
 
+}
+
+#menu-nav a {
+  font-family: 'Ropa Soft Pro';
 }
 
 .navbar .nav li {
@@ -78,4 +102,55 @@ p {
 
 #footer p {
   font-size: 15px;
+}
+
+#donar {
+  text-align: center;
+}
+
+.modal-dialogue {
+  display: inline-block;
+  padding-top: 200px;
+}
+
+.modal-content {
+  width: 900px;
+  min-height: 500px;
+  background-image: url('../assets/fondo-donacion.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: inline-block;
+}
+
+.modal-body {
+  margin-top: 50px;
+}
+
+#donaciones {
+  display: inline-block;
+  margin: 10px;
+}
+
+.donaciones1 {
+  width: 519px;
+  background-image: url('../assets/donacion-chica.png');
+  background-size: 100% 100%;
+}
+
+.donaciones2 {
+  width: 783px;
+  background-image: url('../assets/donacion-grande.png');
+  background-size: 100% 100%;
+}
+
+#donaciones h3 {
+  padding: 5px;
+}
+
+#donaciones button {
+  margin: 5px;
+  margin-bottom: 15px;
+  background: none;
+  border: none;
 }
