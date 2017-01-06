@@ -73,7 +73,8 @@ body {
 }
 
 .item img {
-  max-height: 600px;
+  width: 100%;
+  margin: -20% 0 -20% 0;
 }
 
 #info-div {
@@ -90,7 +91,7 @@ p {
 }
 
 #nuestra {
-  margin: 0 20% 0 20%;
+  margin: 0 10% 0 10%;
   padding: 25px 0 25px 0;
 }
 
@@ -110,7 +111,7 @@ p {
 
 .modal-dialogue {
   display: inline-block;
-  padding-top: 200px;
+  padding-top: 110px;
 }
 
 .modal-content {
@@ -153,4 +154,8 @@ p {
   margin-bottom: 15px;
   background: none;
   border: none;
+}
+
+#donaciones button:hover {
+  transform: scale(1.10);
 }
