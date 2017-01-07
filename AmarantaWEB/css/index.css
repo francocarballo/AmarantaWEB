@@ -159,3 +159,9 @@ p {
 #donaciones button:hover {
   transform: scale(1.10);
 }
+a,
+a:visited,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
